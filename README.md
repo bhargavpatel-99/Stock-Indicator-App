@@ -102,6 +102,34 @@ The app will open in your browser. Enter a stock ticker (e.g., AAPL, MSFT, TSLA)
 - Analyst recommendations and news depend on data availability from yfinance
 - Always do your own research before making investment decisions
 
+## 🚀 Deployment
+
+### Deploy to Streamlit Cloud (Free)
+
+1. **Fork or ensure your repository is on GitHub**
+   - Repository: https://github.com/bhargavpatel-99/Stock-Indicator-App
+
+2. **Go to Streamlit Cloud**
+   - Visit: https://share.streamlit.io/
+   - Sign in with your GitHub account
+
+3. **Deploy your app**
+   - Click "New app"
+   - Select your repository: `bhargavpatel-99/Stock-Indicator-App`
+   - Branch: `main`
+   - Main file path: `app.py`
+   - Click "Deploy"
+
+4. **Your app will be live!**
+   - Streamlit Cloud will provide you with a public URL
+   - Example: `https://stock-indicator-app.streamlit.app`
+
+### Alternative Deployment Options
+
+- **Heroku**: Use Procfile and requirements.txt
+- **AWS/GCP/Azure**: Deploy as a containerized app
+- **Docker**: Containerize and deploy anywhere
+
 ## License
 
 This project is for educational purposes only. Not financial advice.

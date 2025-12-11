@@ -38,8 +38,7 @@ ENV/
 Thumbs.db
 
 # Streamlit
-.streamlit/*
-!.streamlit/config.toml
+.streamlit/
 
 # Environment variables
 .env
